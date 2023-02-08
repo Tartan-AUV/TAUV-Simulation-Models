@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 3.0.0 commit date:2021-12-02, commit time:18:35, hash:f1cca3055776</authoring_tool>
     </contributor>
-    <created>2023-01-31T22:55:53</created>
-    <modified>2023-01-31T22:55:53</modified>
+    <created>2023-02-07T23:23:03</created>
+    <modified>2023-02-07T23:23:03</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -144,7 +144,7 @@
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
       <node id="handle" name="handle" type="NODE">
-        <matrix sid="transform">0.6623735 0 0 -0.3048 0 -1.848476 3.71146e-6 0 0 -2.79112e-7 -24.57987 0.46355 0 0 0 1</matrix>
+        <matrix sid="transform">0.6623735 0 0 1.49012e-8 0 -1.848476 3.71146e-6 0 0 -2.79112e-7 -24.57987 0.10795 0 0 0 1</matrix>
         <instance_geometry url="#Cube_004-mesh" name="handle">
           <bind_material>
             <technique_common>
@@ -156,7 +156,7 @@
         </instance_geometry>
       </node>
       <node id="Lid" name="Lid" type="NODE">
-        <matrix sid="transform">0.2446596 0 0 -0.3048 0 0.2826921 0 0 0 0 0.6777056 0.36195 0 0 0 1</matrix>
+        <matrix sid="transform">0.2446596 0 0 1.49012e-8 0 0.2826921 0 0 0 0 0.6777056 0.006350011 0 0 0 1</matrix>
         <instance_geometry url="#Cube_001-mesh" name="Lid">
           <bind_material>
             <technique_common>
